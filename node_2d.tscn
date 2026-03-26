@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://cybupyafe2vbd"]
+[gd_scene format=3 uid="uid://cf43f2l10q6oj"]
 
 [node name="Node2D" type="Node2D" unique_id=621238024]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=552389022]
 position = Vector2(573, 323)
+
+[node name="Window" type="Window" parent="Camera2D" unique_id=910236858]
+oversampling_override = 1.0
